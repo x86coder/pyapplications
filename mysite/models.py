@@ -13,7 +13,10 @@ class Job(models.Model):
     secondary_reference_text = models.TextField(null=True, blank=True)
 
     def __str__(self):
-        return self.role_text
+        if self.role_text == None:
+            return "[Not specified]"
+        else:
+            return self.role_text
 
 class Step(models.Model):
     job = models.ForeignKey(Job, on_delete=models.CASCADE)
