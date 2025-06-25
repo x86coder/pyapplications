@@ -9,12 +9,13 @@ Django project to manage multiple Job applications
 -**Default URL:** `localhost/mysite`
 -**Default database:** SQLite3 (no need to install, it's included in Python3)
 
-- To run application in your computer type in the following commands:
-python manage.py runserver 9000
-
+## Installation
+To run application in your computer:
+- Install ![Python](https://www.python.org/) 
+- Install Django framework with `pip install Django'
+- Clone this project into your machine by using ![Git](https://git-scm.com/downloads) (if you have a Mac🍏 it's already installed)
+- Open a console or terminal and type in the following: `python manage.py runserver 9000`
+## Usage
+To view the homescren go to address: `localhost:9000/mysite`
 ## Managing records in database
-To insert/manage records into database go to Django's admin site: `localhost:9000/admin` and use the default user `admin` and password 1 through 6.
-## To view your applications go to
-localhost:9000/mysite
-
-
+To insert/manage records into database go to `localhost:9000/admin` or click the [Admin] button. Use the default user `admin` and password 1 through 6.
