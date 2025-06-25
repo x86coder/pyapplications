@@ -1,7 +1,7 @@
 # pyapplications
 Django project to manage multiple Job applications
 
-![HomeScreen](docs/images/home.png)
+![HomeScreen](docs/images/home.PNG)
 
 - To run application in your computer type in the following commands:
 python manage.py runserver 9000
