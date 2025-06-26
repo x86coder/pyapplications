@@ -9,7 +9,8 @@
 </HEAD>
 <BODY>
 <div class="container-fluid">
-	<H1> pyapplications <a href="http://localhost:9000/admin" role="button" class="btn btn-primary">Go to admin</a></H1>
+	<H1> pyapplications <a href="http://localhost:9000/admin" role="button" class="btn btn-primary">Go to admin</a> </H1>
+	<p> Currently, jobs can only be added through the <b>admin</b> interface. The application prioritizes ease-of-use and UX over technology, complexity or correctness. Each <b> job </b> has events (also called steps), the three main events are CREATED, APPLIED and DENIED. The dashboard shows the jobs sorted from the most recent event to the oldest event (Recent events first).</p>
 	<HR>
 	<div class="card-columns">
 		{% for r in allRecordsSorted %}
