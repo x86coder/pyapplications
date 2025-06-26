@@ -1,6 +1,8 @@
 # pyapplications
 Django project to manage multiple Job applications
 
+Currently, jobs can only be added through the **admin** interface. The application prioritizes ease-of-use and UX over technology, complexity or correctness. Each **job** has events (also called steps), the three main events are CREATED, APPLIED and DENIED. The dashboard shows the jobs sorted from the most recent event to the oldest event (Recent events first). To show the list in its expected format, each job must have at least. There's another object in database called Wished, these are intented to grow your career. These are jobs you wish you could do or work in the future. You can add any technology or tools inside the Notes description. Theres also plans to include a collection of Job Boards into the application, so whenever you feel like searching for a job you can immediately navigate through your options.
+
 ![HomeScreen](docs/images/home.PNG)
 
 ## Overview
